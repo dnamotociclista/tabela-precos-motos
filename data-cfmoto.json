@@ -1,0 +1,30 @@
+[
+ {
+  "modelo": "CL- C 450",
+  "categoria": "Naked / Street",
+  "preco": 32967,
+  "url": "https://www.tabelafipebrasil.com/motos/CFMOTO/novas",
+  "fonte": "FIPE zero km"
+ },
+ {
+  "modelo": "CL- C Bobber 450",
+  "categoria": "Custom",
+  "preco": 33717,
+  "url": "https://www.tabelafipebrasil.com/motos/CFMOTO/novas",
+  "fonte": "FIPE zero km"
+ },
+ {
+  "modelo": "Ibex 450",
+  "categoria": "Trail / Adventure",
+  "preco": 35967,
+  "url": "https://www.tabelafipebrasil.com/motos/CFMOTO/novas",
+  "fonte": "FIPE zero km"
+ },
+ {
+  "modelo": "Ibex 700",
+  "categoria": "Trail / Adventure",
+  "preco": 44967,
+  "url": "https://www.tabelafipebrasil.com/motos/CFMOTO/novas",
+  "fonte": "FIPE zero km"
+ }
+]
