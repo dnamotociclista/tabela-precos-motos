@@ -1,0 +1,247 @@
+[
+ {
+  "modelo": "Neo's Connected",
+  "categoria": "Scooter",
+  "ano": 2025,
+  "preco": 25590,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "ZR Hybrid Connected",
+  "categoria": "Scooter",
+  "ano": 2027,
+  "preco": 14090,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Fluo ABS Hybrid Connected",
+  "categoria": "Scooter",
+  "ano": 2027,
+  "preco": 16790,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Aerox ABS Connected",
+  "categoria": "Scooter",
+  "ano": 2027,
+  "preco": 19090,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "NMAX ABS Connected",
+  "categoria": "Scooter",
+  "ano": 2026,
+  "preco": 23290,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "XMAX 300 Connected",
+  "categoria": "Scooter",
+  "ano": 2027,
+  "preco": 38690,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Factor",
+  "categoria": "Street",
+  "ano": 2026,
+  "preco": 18690,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Factor DX",
+  "categoria": "Street",
+  "ano": 2026,
+  "preco": 19290,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Fazer FZ15 ABS Connected",
+  "categoria": "Street",
+  "ano": 2027,
+  "preco": 21490,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Fazer FZ15 ABS Connected Deadpool",
+  "categoria": "Street",
+  "ano": 2027,
+  "preco": 23490,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Fazer FZ25 Connected",
+  "categoria": "Street",
+  "ano": 2026,
+  "preco": 25290,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Crosser S ABS Connected",
+  "categoria": "Trail",
+  "ano": 2027,
+  "preco": 22890,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Crosser Z ABS Connected",
+  "categoria": "Trail",
+  "ano": 2027,
+  "preco": 23090,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Crosser Z ABS Wolverine",
+  "categoria": "Trail",
+  "ano": 2027,
+  "preco": 24990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Lander Connected",
+  "categoria": "Trail",
+  "ano": 2026,
+  "preco": 29290,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Ténéré 700",
+  "categoria": "Trail",
+  "ano": 2027,
+  "preco": 67590,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R15 ABS",
+  "categoria": "Esportiva",
+  "ano": 2026,
+  "preco": 23690,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R15 ABS 70th",
+  "categoria": "Esportiva",
+  "ano": 2027,
+  "preco": 24190,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R3 ABS Connected",
+  "categoria": "Esportiva",
+  "ano": 2027,
+  "preco": 37490,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R3 ABS 70th",
+  "categoria": "Esportiva",
+  "ano": 2027,
+  "preco": 37990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R7",
+  "categoria": "Esportiva",
+  "ano": 2027,
+  "preco": 60690,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "R7 70th",
+  "categoria": "Esportiva",
+  "ano": 2027,
+  "preco": 61290,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "MT-03 Connected",
+  "categoria": "Naked",
+  "ano": 2027,
+  "preco": 34490,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "MT-07 Connected",
+  "categoria": "Naked",
+  "ano": 2026,
+  "preco": 54790,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "Tracer 7",
+  "categoria": "Sport Touring",
+  "ano": 2027,
+  "preco": 59990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "TT-R 230",
+  "categoria": "Off-road",
+  "ano": 2026,
+  "preco": 20190,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "PW50",
+  "categoria": "Off-road",
+  "ano": 2025,
+  "preco": 19990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ65",
+  "categoria": "Off-road",
+  "ano": 2026,
+  "preco": 43990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ85LW",
+  "categoria": "Off-road",
+  "ano": 2027,
+  "preco": 49990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ125",
+  "categoria": "Off-road",
+  "ano": 2027,
+  "preco": 61990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ250",
+  "categoria": "Off-road",
+  "ano": 2027,
+  "preco": 67990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ250F",
+  "categoria": "Off-road",
+  "ano": 2025,
+  "preco": 72990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "YZ450F",
+  "categoria": "Off-road",
+  "ano": 2026,
+  "preco": 86990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "WR250F",
+  "categoria": "Off-road",
+  "ano": 2025,
+  "preco": 81990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ },
+ {
+  "modelo": "WR450F",
+  "categoria": "Off-road",
+  "ano": 2025,
+  "preco": 88990,
+  "url": "https://www.yamaha-motor.com.br/motos"
+ }
+]

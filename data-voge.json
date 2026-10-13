@@ -1,0 +1,26 @@
+[
+ {
+  "modelo": "DS900X",
+  "categoria": "Adventure",
+  "preco": 73880,
+  "url": "https://vogebrasil.com.br/adventure-ds900x/"
+ },
+ {
+  "modelo": "DS525X",
+  "categoria": "Adventure",
+  "preco": 43580,
+  "url": "https://vogebrasil.com.br/adventure-ds525x/"
+ },
+ {
+  "modelo": "SR4 Max",
+  "categoria": "Scooter",
+  "preco": 51880,
+  "url": "https://vogebrasil.com.br/scooter-sr4-max/"
+ },
+ {
+  "modelo": "SR3",
+  "categoria": "Scooter",
+  "preco": 33880,
+  "url": "https://vogebrasil.com.br/scooter-sr3/"
+ }
+]

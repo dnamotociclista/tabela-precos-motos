@@ -1,0 +1,38 @@
+[
+ {
+  "modelo": "TACTIC 750 VERDE",
+  "categoria": "quadriciclo",
+  "preco": 61380,
+  "url": "http://hisunmotors.com.br/tactic-750-verde"
+ },
+ {
+  "modelo": "TACTIC 750 CAMO",
+  "categoria": "quadriciclo",
+  "preco": 61960,
+  "url": "http://hisunmotors.com.br/tactic-750-camo"
+ },
+ {
+  "modelo": "TACTIC 550",
+  "categoria": "quadriciclo",
+  "preco": 56200,
+  "url": "http://hisunmotors.com.br/tactic-550"
+ },
+ {
+  "modelo": "TACTIC 550 CAMO",
+  "categoria": "quadriciclo",
+  "preco": 56800,
+  "url": "http://hisunmotors.com.br/tactic-550-camo"
+ },
+ {
+  "modelo": "TACTIC 400i",
+  "categoria": "quadriciclo",
+  "preco": 49840,
+  "url": "http://hisunmotors.com.br/tactic-400i"
+ },
+ {
+  "modelo": "Tactic 400i Camo",
+  "categoria": "quadriciclo",
+  "preco": 50460,
+  "url": "http://hisunmotors.com.br/tactic-400i-camo"
+ }
+]

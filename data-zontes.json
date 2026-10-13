@@ -1,0 +1,50 @@
+[
+ {
+  "modelo": "350 E",
+  "categoria": "maxi-scooter",
+  "preco": 38650,
+  "url": "http://zontesmotos.com.br/350-e"
+ },
+ {
+  "modelo": "368G",
+  "categoria": "maxi-scooter",
+  "preco": 45800,
+  "url": "http://zontesmotos.com.br/368g"
+ },
+ {
+  "modelo": "T 350",
+  "categoria": "crossover",
+  "preco": 34750,
+  "url": "http://zontesmotos.com.br/t-350"
+ },
+ {
+  "modelo": "T 350 X",
+  "categoria": "crossover",
+  "preco": 35750,
+  "url": "http://zontesmotos.com.br/t-350-x"
+ },
+ {
+  "modelo": "R 350",
+  "categoria": "streetfighter",
+  "preco": 30880,
+  "url": "http://zontesmotos.com.br/r-350"
+ },
+ {
+  "modelo": "V 350",
+  "categoria": "cruiser",
+  "preco": 32970,
+  "url": "http://zontesmotos.com.br/v-350"
+ },
+ {
+  "modelo": "S 350",
+  "categoria": "muscle custom",
+  "preco": 33720,
+  "url": "http://zontesmotos.com.br/s-350"
+ },
+ {
+  "modelo": "GK 350",
+  "categoria": "sportscafe",
+  "preco": 33720,
+  "url": "http://zontesmotos.com.br/gk-350"
+ }
+]

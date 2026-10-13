@@ -1,0 +1,68 @@
+[
+ {
+  "modelo": "HAYABUSA",
+  "categoria": "sport touring",
+  "preco": 124500,
+  "url": "https://suzukimotos.com.br/hayabusa"
+ },
+ {
+  "modelo": "GSX-S1000GX",
+  "categoria": "supreme sport crossover",
+  "preco": 98800,
+  "url": "https://suzukimotos.com.br/gsx-s1000gx"
+ },
+ {
+  "modelo": "GSX-S1000 GT",
+  "categoria": "grand tourer",
+  "preco": 87600,
+  "url": "https://suzukimotos.com.br/gsx-s1000-gt"
+ },
+ {
+  "modelo": "GSX-S1000",
+  "categoria": "naked",
+  "preco": 76900,
+  "url": "https://suzukimotos.com.br/gsx-s1000"
+ },
+ {
+  "modelo": "GSX-8R",
+  "categoria": "super sport",
+  "preco": 58950,
+  "url": "https://suzukimotos.com.br/gsx-8r"
+ },
+ {
+  "modelo": "GSX-8S",
+  "categoria": "naked",
+  "preco": 54300,
+  "url": "https://suzukimotos.com.br/gsx-8s"
+ },
+ {
+  "modelo": "V-STROM 1050/XT",
+  "categoria": "big trail",
+  "preco": 81650,
+  "url": "https://suzukimotos.com.br/v-strom-1050-xt"
+ },
+ {
+  "modelo": "V-STROM 1050",
+  "categoria": "big trail",
+  "preco": 77600,
+  "url": "https://suzukimotos.com.br/v-strom-1050"
+ },
+ {
+  "modelo": "V-STROM 800 DE",
+  "categoria": "big trail",
+  "preco": 67500,
+  "url": "https://suzukimotos.com.br/v-strom-800-de"
+ },
+ {
+  "modelo": "V-STROM 800",
+  "categoria": "big trail",
+  "preco": 64900,
+  "url": "https://suzukimotos.com.br/v-strom-800"
+ },
+ {
+  "modelo": "V-STROM 650XT",
+  "categoria": "big trail",
+  "preco": 57900,
+  "url": "https://suzukimotos.com.br/v-strom-650xt"
+ }
+]

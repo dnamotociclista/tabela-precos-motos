@@ -1,0 +1,92 @@
+[
+ {
+  "modelo": "G 310 GS",
+  "categoria": "Adventure",
+  "preco": 42990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "F 800 GS",
+  "categoria": "Adventure",
+  "preco": 69990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "F 900 GS",
+  "categoria": "Adventure",
+  "preco": 78990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "F 900 GS Adventure",
+  "categoria": "Adventure",
+  "preco": 92990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 1300 GS",
+  "categoria": "Adventure",
+  "preco": 115990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 1300 GS Adventure",
+  "categoria": "Adventure",
+  "preco": 146990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "G 310 R",
+  "categoria": "Roadster",
+  "preco": 38990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "F 900 R",
+  "categoria": "Roadster",
+  "preco": 71490,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "S 1000 RR",
+  "categoria": "Sport",
+  "preco": 139990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "K 1600 GTL",
+  "categoria": "Touring",
+  "preco": 324990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 1300 RT",
+  "categoria": "Touring",
+  "preco": 163990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 12",
+  "categoria": "Heritage",
+  "preco": 90900,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 18",
+  "categoria": "Heritage",
+  "preco": 135900,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "R 12 G/S",
+  "categoria": "Heritage",
+  "preco": 103900,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ },
+ {
+  "modelo": "C 400 X",
+  "categoria": "Scooter",
+  "preco": 64990,
+  "url": "https://www.bmw-motorrad.com.br/pt/models/modeloverview.html"
+ }
+]

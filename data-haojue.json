@@ -1,0 +1,38 @@
+[
+ {
+  "modelo": "MASTER RIDE 150",
+  "categoria": "custom",
+  "preco": 16928,
+  "url": "http://haojuemotos.com.br/master-ride-150"
+ },
+ {
+  "modelo": "DL160",
+  "categoria": "crossover",
+  "preco": 21470,
+  "url": "http://haojuemotos.com.br/dl160"
+ },
+ {
+  "modelo": "NK160",
+  "categoria": "trail",
+  "preco": 19510,
+  "url": "http://haojuemotos.com.br/nk160"
+ },
+ {
+  "modelo": "DK160",
+  "categoria": "street",
+  "preco": 16950,
+  "url": "http://haojuemotos.com.br/dk160"
+ },
+ {
+  "modelo": "DR160",
+  "categoria": "street",
+  "preco": 20900,
+  "url": "http://haojuemotos.com.br/dr160"
+ },
+ {
+  "modelo": "BURGMAN ADX",
+  "categoria": "scooter",
+  "preco": 16950,
+  "url": "http://haojuemotos.com.br/burgman-adx"
+ }
+]
