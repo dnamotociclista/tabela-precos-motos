@@ -44,7 +44,7 @@ function accept(brand,fresh){
 }
 
 // 1) scrapers sem navegador (cada um grava data-*.json; reaplicamos as travas por cima)
-for(const s of ['suzuki-grupo','shineray','ducati','harley','fipe-novas']){
+for(const s of ['suzuki-grupo','shineray','ducati','harley','fipe-api']){
   try{
     const DF=()=>fs.readdirSync('.').filter(f=>/^data-[a-z-]+\.json$/.test(f));
     const snap=Object.fromEntries(DF().map(f=>[f,fs.readFileSync(f,'utf8')]));

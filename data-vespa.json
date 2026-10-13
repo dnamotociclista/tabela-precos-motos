@@ -4,83 +4,95 @@
   "categoria": "Scooter",
   "preco": 79990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898013-6"
  },
  {
   "modelo": "GTS Super 300",
   "categoria": "Scooter",
   "preco": 82990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898012-8"
  },
  {
   "modelo": "GTS Super Sport 300",
   "categoria": "Scooter",
   "preco": 84990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898010-1"
  },
  {
   "modelo": "GTS Super Tech 300",
   "categoria": "Scooter",
   "preco": 84990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898011-0"
  },
  {
   "modelo": "GTV 300",
   "categoria": "Scooter",
   "preco": 89990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898004-7"
  },
  {
   "modelo": "Primavera 150",
   "categoria": "Scooter",
   "preco": 56331,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898007-1"
  },
  {
   "modelo": "Primavera Sport 150",
   "categoria": "Scooter",
   "preco": 56383,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898008-0"
  },
  {
   "modelo": "Sprint 150",
   "categoria": "Scooter",
   "preco": 52990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898005-5"
  },
  {
   "modelo": "Sprint S 150",
   "categoria": "Scooter",
   "preco": 58791,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898006-3"
  },
  {
   "modelo": "SXL 150",
   "categoria": "Scooter",
   "preco": 29990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898002-0"
  },
  {
   "modelo": "VXL 150",
   "categoria": "Scooter",
   "preco": 31990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898001-2"
  },
  {
   "modelo": "VXL Dual 150",
   "categoria": "Scooter",
   "preco": 32990,
   "url": "https://www.tabelafipebrasil.com/motos/VESPA/novas",
-  "fonte": "FIPE zero km"
+  "fonte": "FIPE zero km",
+  "codigo": "898003-9"
  }
 ]

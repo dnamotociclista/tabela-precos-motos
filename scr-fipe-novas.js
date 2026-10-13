@@ -47,7 +47,7 @@ async function get(u){
           if(/^(ap[eé]|e-cargo|e-passenger)/i.test(L[i+1]))continue;
           const nome=title(L[i+1]),preco=brl(L[i+2]);
           if(!preco||seen.has(nome))continue;seen.add(nome);
-          rows.push({modelo:nome,categoria:catOf(L[i+1]),preco,url:u,fonte:'FIPE zero km'});
+          rows.push({modelo:nome,categoria:catOf(L[i+1]),preco,url:u,fonte:'FIPE zero km',codigo:L[i]});
         }
       }
       if(rows.length){fs.writeFileSync(__dirname+'/data-'+id+'.json',JSON.stringify(rows,null,1));console.log(id,rows.length)}

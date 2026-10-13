@@ -29,7 +29,7 @@ const data=[];
 for(const [id,nome] of BRANDS){
   const f=path.join(D,'data-'+id+'.json');
   if(!fs.existsSync(f))continue;
-  const rows=JSON.parse(fs.readFileSync(f,'utf8')).filter(r=>r.preco>1000&&r.modelo).map(r=>({m:r.modelo.trim(),c:cat(r.categoria),p:r.preco,a:r.ano||0,u:r.url||'',f:r.fonte||''}));
+  const rows=JSON.parse(fs.readFileSync(f,'utf8')).filter(r=>r.preco>1000&&r.modelo&&!/quadri/i.test(r.categoria||'')).map(r=>({m:r.modelo.trim(),c:cat(r.categoria),p:r.preco,a:r.ano||0,u:r.url||'',f:r.fonte||''}));
   rows.sort((a,b)=>a.p-b.p);
   if(rows.length)data.push({id,nome,rows});
 }
