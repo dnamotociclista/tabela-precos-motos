@@ -1,11 +1,11 @@
-2026-10-13T08:18:58.423Z
+2026-10-13T08:28:10.027Z
 scraper suzuki-grupo: haojue 6, suzuki 11, hisun 6, kymco 1, zontes 8
 scraper shineray: shineray 8
 scraper ducati: ducati 11
 scraper harley: harley-davidson 6
-scraper fipe-api falhou: Command failed: node scr-fipe-api.js
-diag honda: titulo=Access Denied texto=203
+scraper fipe-api: avelloz atualizados 0, bajaj atualizados 0, cfmoto atualizados 0, dafra atualizados 0, husqvarna atualizados 0, kawasaki atualizados 0, ktm atualizados 0, piaggio atualizados 0, royal-enfield atualizados 0, triumph atualizados 0, vespa atualizados 0, chamadas 210 ok 210 falhas 0
+diag honda: titulo=Access Denied texto=201
 diag honda: links=0 modelos=0
 honda: coleta vazia, mantido o anterior
-diag yamaha: titulo=Access Denied texto=210 itens=0
+diag yamaha: titulo=Access Denied texto=208 itens=0
 yamaha: coleta vazia, mantido o anterior
