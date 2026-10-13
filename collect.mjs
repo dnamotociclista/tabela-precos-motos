@@ -8,6 +8,7 @@ const PEND='data-pendentes.json';
 const pend=fs.existsSync(PEND)?JSON.parse(fs.readFileSync(PEND,'utf8')):{};
 const log=[];
 const read=b=>fs.existsSync(`data-${b}.json`)?JSON.parse(fs.readFileSync(`data-${b}.json`,'utf8')):[];
+const nk=s=>String(s).toLowerCase().replace(/[\s\-]+/g,'');
 const brl=s=>{const m=String(s).match(/(\d{1,3}(?:\.\d{3})+|\d{4,6})/);return m?parseInt(m[1].replace(/\./g,''),10):null};
 const smart=n=>n.replace(/^(nov[ao]\s+)?(yamaha\s+|honda\s+)/i,'').split(/\s+/).map(w=>/\d|-|^(abs|dx|zr|xmax|nmax)$/i.test(w)?w.toUpperCase().replace(/70TH/,'70th'):w.charAt(0).toUpperCase()+w.slice(1).toLowerCase()).join(' ');
 
@@ -16,10 +17,10 @@ function accept(brand,fresh){
   const old=read(brand);
   if(!fresh.length){log.push(`${brand}: coleta vazia, mantido o anterior`);return}
   if(old.length>0&&fresh.length<old.length*0.6){log.push(`${brand}: só ${fresh.length} de ${old.length} modelos, mantido o anterior`);return}
-  const om=new Map(old.map(r=>[r.modelo,r]));
+  const om=new Map(old.map(r=>[nk(r.modelo),r]));
   const out=[];
   for(const r of fresh){
-    const o=om.get(r.modelo);
+    const o=om.get(nk(r.modelo));
     if(!(r.preco>=5000&&r.preco<=800000)){log.push(`${brand} ${r.modelo}: preço fora da faixa (${r.preco}), ignorado`);if(o)out.push(o);continue}
     if(o&&Math.abs(r.preco-o.preco)/o.preco>0.25){
       const k=brand+'|'+r.modelo;
@@ -34,7 +35,7 @@ function accept(brand,fresh){
   // modelos que sumiram ficam por até 2 coletas
   for(const o of old){
     const k='sumiu|'+brand+'|'+o.modelo;
-    if(out.some(x=>x.modelo===o.modelo)){delete pend[k];continue}
+    if(out.some(x=>nk(x.modelo)===nk(o.modelo))){delete pend[k];continue}
     pend[k]=(pend[k]||0)+1;
     if(pend[k]<3){out.push(o);log.push(`${brand} ${o.modelo}: não apareceu, mantido (${pend[k]}/2)`)}
     else{delete pend[k];log.push(`${brand} ${o.modelo}: removido`)}
@@ -45,14 +46,14 @@ function accept(brand,fresh){
 // 1) scrapers sem navegador (cada um grava data-*.json; reaplicamos as travas por cima)
 for(const s of ['suzuki-grupo','shineray','ducati','harley']){
   try{
-    const DF=()=>fs.readdirSync('.').filter(f=>/^data-[a-z-]+.json$/.test(f));
+    const DF=()=>fs.readdirSync('.').filter(f=>/^data-[a-z-]+\.json$/.test(f));
     const snap=Object.fromEntries(DF().map(f=>[f,fs.readFileSync(f,'utf8')]));
     execFileSync('node',[`scr-${s}.js`],{stdio:'inherit'});
     for(const f of DF()){
       const nw=fs.readFileSync(f,'utf8');
       if(snap[f]!==nw){
         if(snap[f]===undefined){continue}
-        const fresh=JSON.parse(nw);fs.writeFileSync(f,snap[f]);accept(f.replace(/^data-|.json$/g,''),fresh);
+        const fresh=JSON.parse(nw);fs.writeFileSync(f,snap[f]);accept(f.replace(/^data-|\.json$/g,''),fresh);
       }
     }
   }catch(e){log.push(`scraper ${s} falhou: ${e.message.split('\n')[0]}`)}
@@ -65,6 +66,7 @@ async function honda(){
   const p=await ctx.newPage();
   await p.goto('https://www.honda.com.br/motos',{waitUntil:'domcontentloaded',timeout:60000});
   await p.waitForTimeout(4000);
+  log.push('diag honda: titulo='+(await p.title())+' texto='+(await p.evaluate(()=>document.body.innerText.length)));
   const links=await p.evaluate(()=>[...new Set([...document.querySelectorAll('a')].map(a=>a.href.split('#')[0]).filter(h=>/honda\.com\.br\/motos\/(street|adventure)\/[^/]+\/[^/]+\/?$|honda\.com\.br\/motos\/(off-road|sport|touring)\/[^/]+\/?$/.test(h)))]);
   const catOf=u=>/\/city\//.test(u)?'Urbana':/scooter/.test(u)?'Scooter':/naked/.test(u)?'Naked':/big-trail/.test(u)?'Big Trail':/crossover/.test(u)?'Crossover':/trail/.test(u)?'Trail':/off-road/.test(u)?'Off-road':/sport/.test(u)?'Esportiva':/touring/.test(u)?'Touring':'';
   const rows=[],seen=new Set();
@@ -78,6 +80,7 @@ async function honda(){
       rows.push({modelo:name,categoria:catOf(u),preco:brl(r.p),url:u});
     }catch(e){}
   }
+  log.push('diag honda: links='+links.length+' modelos='+rows.length);
   await p.close();accept('honda',rows);
 }
 
@@ -91,6 +94,7 @@ async function yamaha(){
     if(!clicked)break;
   }
   const items=await p.evaluate(()=>{const L=document.body.innerText.split('\n').map(s=>s.trim()).filter(Boolean);const out=[];for(let i=0;i<L.length;i++){if(L[i]==='A partir de'&&/^R\$/.test(L[i+1])){let j=i-1;while(j>0&&!/^Ano \d{4}$/.test(L[j]))j--;let k=j-1;if(/Garantia/.test(L[k]))k--;out.push({cat:L[k-1],nome:L[k],ano:+L[j].slice(4),preco:L[i+1]})}}return out});
+  log.push('diag yamaha: titulo='+(await p.title())+' texto='+(await p.evaluate(()=>document.body.innerText.length))+' itens='+items.length);
   const byName=new Map();
   const catMap={'MT Series':'Naked','Racing':'Off-road'};
   for(const it of items){

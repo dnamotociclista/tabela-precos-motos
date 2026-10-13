@@ -1,5 +1,5 @@
 (function(){
-var SRC='https://dnamotociclista.github.io/tabela-precos-motos/meta.json';
+var SRC='https://raw.githubusercontent.com/dnamotociclista/tabela-precos-motos/main/meta.json';
 var q=document.getElementById('tp-q'),mk=document.getElementById('tp-marca'),cat=document.getElementById('tp-cat'),fx=document.getElementById('tp-faixa'),ord=document.getElementById('tp-ord');
 var go=document.getElementById('tp-go'),clr=document.getElementById('tp-clear');
 var cnt=document.getElementById('tp-count'),empty=document.getElementById('tp-empty'),list=document.getElementById('tp-list');
