@@ -9,6 +9,7 @@ const ids=fs.readdirSync(__dirname).filter(f=>/^data-[a-z-]+\.json$/.test(f)).ma
     if(parar)break;
     const file=__dirname+'/data-'+id+'.json';
     const rows=JSON.parse(fs.readFileSync(file,'utf8'));
+    if(!Array.isArray(rows))continue;
     if(!rows.some(r=>r.codigo))continue;
     let mudou=0;
     for(const r of rows){
