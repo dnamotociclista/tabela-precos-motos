@@ -26,10 +26,14 @@ function cat(raw){
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const fmt=n=>'R$ '+n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');
 const data=[];
+const nk=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'');
+const EXC=fs.existsSync(path.join(D,'excluir.json'))?JSON.parse(fs.readFileSync(path.join(D,'excluir.json'),'utf8')):{};
 for(const [id,nome] of BRANDS){
   const f=path.join(D,'data-'+id+'.json');
   if(!fs.existsSync(f))continue;
-  const rows=JSON.parse(fs.readFileSync(f,'utf8')).filter(r=>r.preco>1000&&r.modelo&&!/quadri/i.test(r.categoria||'')).map(r=>({m:r.modelo.trim(),c:cat(r.categoria),p:r.preco,a:r.ano||0,u:r.url||'',f:r.fonte||''}));
+  if((EXC[id]||[]).includes('*'))continue;
+  const ex=(EXC[id]||[]).map(nk);
+  const rows=JSON.parse(fs.readFileSync(f,'utf8')).filter(r=>r.preco>1000&&r.modelo&&!/quadri/i.test(r.categoria||'')&&!ex.includes(nk(r.modelo))).map(r=>({m:r.modelo.trim(),c:cat(r.categoria),p:r.preco,a:r.ano||0,u:r.url||'',f:r.fonte||''}));
   rows.sort((a,b)=>a.p-b.p);
   if(rows.length)data.push({id,nome,rows});
 }

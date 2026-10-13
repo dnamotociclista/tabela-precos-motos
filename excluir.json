@@ -1,0 +1,8 @@
+{
+  "_nota": "Modelos e marcas que NÃO aparecem na tabela por saírem de linha ou sem venda confirmada no Brasil. Chave = id da marca (nome do arquivo data-<id>.json). Valor '*' tira a marca inteira. Comparação sem espaço, hífen ou maiúscula.",
+  "piaggio": ["*"],
+  "kawasaki": ["Z 1000", "Z 1000 R Edition", "Z 1000 H2"],
+  "triumph": ["Trident 660 Triple Tribute", "Tiger 800 Sport"],
+  "husqvarna": ["701 Enduro", "701 Supermoto"],
+  "bajaj": ["Dominar 160", "Dominar 200"]
+}
