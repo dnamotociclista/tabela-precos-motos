@@ -1,6 +1,11 @@
-2026-10-13T08:01:32.218Z
+2026-10-13T08:08:02.447Z
+scraper suzuki-grupo: haojue 6, suzuki 11, hisun 6, kymco 1, zontes 8
+scraper shineray: shineray 8
+scraper ducati: ducati 11
+scraper harley: harley-davidson 6
+scraper fipe-novas: kawasaki erro https://www.tabelafipebrasil.com/motos/KAWASAKI/novas bloqueado, triumph erro https://www.tabelafipebrasil.com/motos/TRIUMPH/novas bloqueado, royal-enfield pulado: fonte bloqueada, ktm pulado: fonte bloqueada, husqvarna pulado: fonte bloqueada, dafra pulado: fonte bloqueada, bajaj pulado: fonte bloqueada, avelloz pulado: fonte bloqueada, cfmoto pulado: fonte bloqueada, vespa pulado: fonte bloqueada, piaggio pulado: fonte bloqueada
 diag honda: titulo=Access Denied texto=203
 diag honda: links=0 modelos=0
 honda: coleta vazia, mantido o anterior
-diag yamaha: titulo=Access Denied texto=208 itens=0
+diag yamaha: titulo=Access Denied texto=210 itens=0
 yamaha: coleta vazia, mantido o anterior
