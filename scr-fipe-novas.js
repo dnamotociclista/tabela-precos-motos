@@ -22,19 +22,21 @@ const title=s=>s.replace(/\s+/g,' ').trim().split(' ').map(w=>(w.length<=3||/\d|
 const brl=s=>{const m=String(s).match(/(\d{1,3}(?:\.\d{3})+)(?:,\d{2})?/);return m?parseInt(m[1].replace(/\./g,''),10):null};
 const {execFileSync}=require('child_process');
 async function get(u){
-  for(let i=0;i<4;i++){
+  for(let i=0;i<2;i++){
     try{
       const out=execFileSync('curl',['-sL','-m','40','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126','-w','\n__HTTP__%{http_code}',u],{maxBuffer:20*1024*1024}).toString();
       const code=out.slice(out.lastIndexOf('__HTTP__')+8).trim();
       if(code==='200')return out.slice(0,out.lastIndexOf('__HTTP__'));
-      if(code==='429'||code==='403'){await sleep(8000*(i+1));continue}
+      if(code==='429'||code==='403'){await sleep(5000);continue}
       throw new Error(u+' '+code);
-    }catch(e){if(i===3)throw e;await sleep(5000)}
+    }catch(e){if(i===1)throw e;await sleep(3000)}
   }
   throw new Error(u+' bloqueado');
 }
 (async()=>{
+  let falhas=0;
   for(const [slug,id] of BRANDS){
+    if(falhas>=2){console.log(id,"pulado: fonte bloqueada");continue}
     try{
       const u=`https://www.tabelafipebrasil.com/motos/${slug}/novas`;
       const h=await get(u);
@@ -50,7 +52,7 @@ async function get(u){
       }
       if(rows.length){fs.writeFileSync(__dirname+'/data-'+id+'.json',JSON.stringify(rows,null,1));console.log(id,rows.length)}
       else console.log(id,'sem linhas');
-    }catch(e){console.log(id,'erro',e.message)}
+    }catch(e){falhas++;console.log(id,'erro',e.message)}
     await sleep(4000);
   }
 })();
