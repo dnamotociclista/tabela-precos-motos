@@ -1,0 +1,24 @@
+name: Coletar precos
+on:
+  schedule:
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm init -y && npm i playwright@1.49.1 && npx playwright install --with-deps chromium
+      - run: node collect.mjs
+      - name: Publicar dados
+        run: |
+          git config user.name "preco-bot"
+          git config user.email "preco-bot@users.noreply.github.com"
+          git add data-*.json meta.json ultima-coleta.txt
+          git diff --cached --quiet || git commit -m "Precos atualizados"
+          git push
