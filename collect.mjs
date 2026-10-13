@@ -48,7 +48,9 @@ for(const s of ['suzuki-grupo','shineray','ducati','harley','fipe-novas']){
   try{
     const DF=()=>fs.readdirSync('.').filter(f=>/^data-[a-z-]+\.json$/.test(f));
     const snap=Object.fromEntries(DF().map(f=>[f,fs.readFileSync(f,'utf8')]));
-    execFileSync('node',[`scr-${s}.js`],{stdio:'inherit'});
+    const so=execFileSync('node',[`scr-${s}.js`]).toString().trim();
+    console.log(so);
+    log.push(`scraper ${s}: ${so.split('\n').join(', ')}`);
     for(const f of DF()){
       const nw=fs.readFileSync(f,'utf8');
       if(snap[f]!==nw){
