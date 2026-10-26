@@ -1,11 +1,5 @@
-2026-10-19T16:53:38.947Z
+2026-10-26T16:37:09.390Z
 scraper suzuki-grupo: haojue 6, suzuki 11, hisun 6, kymco 1, zontes 8
-hisun TACTIC 750 VERDE: 61380 -> 58300
-hisun TACTIC 750 CAMO: 61960 -> 58900
-hisun TACTIC 550: 56200 -> 54000
-hisun TACTIC 550 CAMO: 56800 -> 54200
-hisun TACTIC 400i: 49840 -> 40700
-hisun Tactic 400i Camo: 50460 -> 40900
 scraper shineray: shineray 8
 scraper ducati: ducati 11
 scraper harley: harley-davidson 6
