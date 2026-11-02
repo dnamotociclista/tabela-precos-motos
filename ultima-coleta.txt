@@ -1,9 +1,201 @@
-2026-10-26T16:37:09.390Z
+2026-11-02T20:04:11.324Z
 scraper suzuki-grupo: haojue 6, suzuki 11, hisun 6, kymco 1, zontes 8
 scraper shineray: shineray 8
+shineray SHI 400sc: 24990 -> 25990
 scraper ducati: ducati 11
 scraper harley: harley-davidson 6
-scraper fipe-api: avelloz atualizados 0, bajaj atualizados 0, cfmoto atualizados 0, dafra atualizados 0, husqvarna atualizados 0, kawasaki atualizados 0, ktm atualizados 0, piaggio atualizados 0, royal-enfield atualizados 0, triumph atualizados 0, vespa atualizados 0, chamadas 210 ok 210 falhas 0
+scraper fipe-api: avelloz atualizados 3, bajaj atualizados 8, cfmoto atualizados 0, dafra atualizados 9, husqvarna atualizados 21, kawasaki atualizados 43, ktm atualizados 22, piaggio atualizados 3, royal-enfield atualizados 38, triumph atualizados 41, vespa atualizados 3, chamadas 210 ok 210 falhas 0
+avelloz AZ 01 50CC: 11562 -> 11625
+avelloz AZ 125 Alfa: 13606 -> 13749
+avelloz AZ 160 Xtreme: 19796 -> 19792
+bajaj Dominar 160: 17464 -> 17942
+bajaj Dominar 200: 19570 -> 19540
+bajaj Dominar 250: 23807 -> 23598
+bajaj Dominar 400: 27493 -> 27391
+bajaj Dominar NS160: 19500 -> 19518
+bajaj Dominar NS200: 21990 -> 22429
+bajaj Dominar NS400Z: 26857 -> 26671
+bajaj Pulsar N150: 16500 -> 16377
+dafra Adxtg 150CC: 21995 -> 21967
+dafra Adxtg 300CC: 32994 -> 32923
+dafra Citycom S 300I/300I ABS: 26366 -> 26341
+dafra Cruisym 150: 17990 -> 17930
+dafra Cruisym 300: 32996 -> 32950
+dafra Maxsym 400 GT: 38990 -> 38938
+dafra NH 190: 19990 -> 19927
+dafra NH 300: 23990 -> 23950
+dafra NHX 190: 18990 -> 18983
+husqvarna 701 Enduro: 110000 -> 122997
+husqvarna 701 Supermoto: 105312 -> 104364
+husqvarna FC 250: 84510 -> 83616
+husqvarna FC 350: 79990 -> 77495
+husqvarna FC 450: 88390 -> 88182
+husqvarna FE 350: 89470 -> 89122
+husqvarna FE 350 Heritage: 87990 -> 86783
+husqvarna FE 450: 95951 -> 95156
+husqvarna FE 501 Heritage: 88733 -> 90990
+husqvarna Norden 901: 96445 -> 97450
+husqvarna Norden 901 Expedition: 104995 -> 109495
+husqvarna Svartpilen 801: 75617 -> 76495
+husqvarna TC 125: 72297 -> 72176
+husqvarna TC 150: 69106 -> 67430
+husqvarna TC 50: 46490 -> 47190
+husqvarna TC 65: 48173 -> 52358
+husqvarna TC 85: 55118 -> 59990
+husqvarna TE 150: 70786 -> 70826
+husqvarna TE 250 Heritage: 84856 -> 87825
+husqvarna TE 300: 90992 -> 91507
+husqvarna TE 300 PRO: 98922 -> 98990
+kawasaki Eliminator 500: 40718 -> 40102
+kawasaki Eliminator 500 SE: 42068 -> 41171
+kawasaki KLX 110: 18463 -> 18518
+kawasaki KLX 110R: 18941 -> 19319
+kawasaki KLX 230: 26490 -> 26078
+kawasaki KLX 300R: 33543 -> 31690
+kawasaki KX 112: 36266 -> 35866
+kawasaki KX 250 X: 66056 -> 64221
+kawasaki KX 250/ 250 F: 64786 -> 63350
+kawasaki KX 450 F: 69856 -> 68650
+kawasaki KX 450 X: 71815 -> 70033
+kawasaki Ninja 300: 31090 -> 31161
+kawasaki Ninja 500: 39912 -> 40447
+kawasaki Ninja 500 SE: 43713 -> 44424
+kawasaki Ninja 650R 649CC: 52114 -> 53202
+kawasaki Ninja ZX-10/ ZX-10R 1000CC/30TH Aniv.: 136467 -> 137885
+kawasaki Ninja ZX-4R: 54076 -> 55900
+kawasaki Ninja ZX-4R SE: 57197 -> 57742
+kawasaki Ninja ZX-4RR: 57857 -> 58195
+kawasaki Ninja ZX-6R 636CC: 75612 -> 74953
+kawasaki Versys 1100: 80066 -> 80790
+kawasaki Versys 1100 Grand Tourer: 102838 -> 103502
+kawasaki Versys 650CC: 57014 -> 57277
+kawasaki Versys Tourer 650: 65265 -> 65626
+kawasaki VERSYS-X 300: 36651 -> 36896
+kawasaki VERSYS-X 300 Tourer: 40369 -> 40624
+kawasaki Vulcan S 650: 54569 -> 53892
+kawasaki Vulcan S 650 Café: 56877 -> 56357
+kawasaki Vulcan S 650 Special Edition: 53819 -> 54162
+kawasaki Z 1000: 82177 -> 81990
+kawasaki Z 1000 H2: 122107 -> 121305
+kawasaki Z 1000 R Edition: 88842 -> 88690
+kawasaki Z 1100: 77216 -> 77698
+kawasaki Z 1100 SE: 87439 -> 87899
+kawasaki Z 500: 37971 -> 38048
+kawasaki Z 500 SE: 41150 -> 41598
+kawasaki Z 650: 50373 -> 50295
+kawasaki Z 650 RS: 54090 -> 53264
+kawasaki Z 900: 64181 -> 63548
+kawasaki Z 900 R Edition: 72567 -> 73579
+kawasaki Z 900 RS R Edition: 75718 -> 75910
+kawasaki Z 900 RS SE: 83465 -> 81491
+kawasaki Z 900 SE: 72614 -> 73628
+ktm 890 SMT: 94177 -> 94966
+ktm 990 Duke: 84580 -> 85863
+ktm Adventure 890 R: 99470 -> 101378
+ktm Duke 390: 35224 -> 33949
+ktm EXC 150: 68640 -> 69447
+ktm EXC 300: 90442 -> 89395
+ktm EXC 300 SIX Days: 95958 -> 96465
+ktm EXC-F 250: 85280 -> 86172
+ktm EXC-F 350: 87466 -> 86233
+ktm EXC-F 350 SIX Days: 96780 -> 96686
+ktm EXC-F 450: 97876 -> 98410
+ktm EXC-F 500: 102476 -> 104134
+ktm Super Adventure 1290 R: 140660 -> 140326
+ktm Super Adventure 1290 S: 130526 -> 130326
+ktm SX 250/ SX 250 F: 81456 -> 81195
+ktm SX 300: 82800 -> 83096
+ktm SX 350 / 350 F: 87000 -> 87046
+ktm SX 450/ SX 450F: 85514 -> 85465
+ktm SX 65: 50466 -> 52170
+ktm SX 85: 58858 -> 59314
+ktm SX-F 250 Factory Edition: 138994 -> 138374
+ktm SX-F 450 Factory Edition: 143990 -> 142015
+piaggio Liberty S 150 Iget: 28406 -> 28149
+piaggio LIBERTY150: 25470 -> 25240
+piaggio MP3 530 HPE: 137398 -> 136160
+royal-enfield Classic 350 Chrome: 24014 -> 23934
+royal-enfield Classic 350 Dark: 24492 -> 24995
+royal-enfield Classic 350 Halcyon: 22793 -> 23047
+royal-enfield Classic 350 Heritage: 24360 -> 23997
+royal-enfield Classic 350 Signals: 24301 -> 24501
+royal-enfield Classic 650 Base: 33810 -> 34058
+royal-enfield Classic 650 MID: 34191 -> 34825
+royal-enfield Classic 650 TOP: 34825 -> 35208
+royal-enfield Continental GT 650: 33656 -> 32974
+royal-enfield Continental GT 650 Custom: 33857 -> 32992
+royal-enfield Continental GT 650 Special Colorway: 31199 -> 30917
+royal-enfield Goan Classic 350 Base: 26390 -> 26456
+royal-enfield Goan Classic 350 MID: 26790 -> 26950
+royal-enfield Guerrilla 450 MID: 29223 -> 29329
+royal-enfield Guerrilla 450 Premium: 30496 -> 30340
+royal-enfield Guerrilla 450 TOP: 29825 -> 30083
+royal-enfield Himalayan 450 Base: 29995 -> 29967
+royal-enfield Himalayan 450 MID: 30496 -> 30470
+royal-enfield Himalayan 450 Premium: 33425 -> 33472
+royal-enfield Himalayan 450 TOP: 32332 -> 32350
+royal-enfield Hunter 350 Dapper: 20215 -> 20110
+royal-enfield Hunter 350 MID: 20001 -> 19743
+royal-enfield Hunter 350 Premium: 20500 -> 20538
+royal-enfield Hunter 350 TOP: 20970 -> 21166
+royal-enfield Interceptor 650 Custom: 31141 -> 31391
+royal-enfield Interceptor 650 Special Colorway: 28600 -> 28342
+royal-enfield Interceptor 650 Standard: 30656 -> 31350
+royal-enfield Interceptor Bear 650 Custom: 33740 -> 33941
+royal-enfield Interceptor Bear 650 Premium: 34290 -> 34491
+royal-enfield Interceptor Bear 650 TOP: 34490 -> 34608
+royal-enfield Meteor 350 Aurora: 27419 -> 26535
+royal-enfield Meteor 350 Fireball: 25695 -> 24894
+royal-enfield Meteor 350 Stellar: 26735 -> 25870
+royal-enfield Meteor 350 Supernova: 26999 -> 26570
+royal-enfield Shotgun 650 Base: 34495 -> 34240
+royal-enfield Shotgun 650 MID: 34993 -> 34490
+royal-enfield Shotgun 650 TOP: 35498 -> 35090
+royal-enfield Super Meteor 650 Interstellar: 35998 -> 36123
+triumph Bonneville Bobber 1200CC: 72884 -> 72256
+triumph Bonneville Bobber Icon Edition 1200CC: 71310 -> 71992
+triumph Bonneville Speedmaster 1200CC: 71807 -> 71403
+triumph Bonneville T100: 57086 -> 56653
+triumph Bonneville T120 Black: 63954 -> 64118
+triumph Daytona 660: 61016 -> 61186
+triumph Rocket III Storm Edition GT 2500CC: 141597 -> 140734
+triumph Rocket III Storm Edition R 2500CC: 136594 -> 135859
+triumph Scrambler 1200 X: 69765 -> 69880
+triumph Scrambler 1200 X Icon Edition: 73537 -> 72875
+triumph Scrambler 1200 XE: 83004 -> 82938
+triumph Scrambler 1200 XE Icon Edition: 82621 -> 83856
+triumph Scrambler 400 X: 32580 -> 32248
+triumph Scrambler 400 XC: 35490 -> 35123
+triumph Scrambler 900 Icon Edition: 54918 -> 57190
+triumph Scrambler 900CC: 58542 -> 61020
+triumph Speed 400: 30190 -> 30090
+triumph Speed Twin 1200CC: 74697 -> 74719
+triumph Speed Twin 1200CC RS: 74900 -> 76070
+triumph Speed Twin 900CC: 63945 -> 64046
+triumph Street Triple 765 RS: 73502 -> 73788
+triumph Street Triple 765 RX: 78892 -> 79188
+triumph Thruxton 400: 34936 -> 34095
+triumph Tiger 1200 Alpine Edition: 98716 -> 98884
+triumph Tiger 1200 Desert Edition: 106515 -> 106366
+triumph Tiger 1200 GT Explorer: 115000 -> 114120
+triumph Tiger 1200 GT PRO: 102761 -> 102280
+triumph Tiger 1200 Rally Black Edition: 93708 -> 93761
+triumph Tiger 1200 Rally Explorer: 124349 -> 126012
+triumph Tiger 1200 Rally PRO: 97074 -> 98572
+triumph Tiger 660 Sport: 62485 -> 62492
+triumph Tiger 800 Sport: 70356 -> 70895
+triumph Tiger 900 Alpine Edition: 83105 -> 83417
+triumph Tiger 900 Desert Edition: 88241 -> 88283
+triumph Tiger 900 GT: 70827 -> 72900
+triumph Tiger 900 GT PRO: 81406 -> 82063
+triumph Tiger 900 Rally PRO: 84550 -> 85788
+triumph Tracker 400: 30861 -> 30517
+triumph Trident 660: 56277 -> 56695
+triumph Trident 660 Triple Tribute: 51760 -> 52932
+triumph Trident 800: 61844 -> 62204
+vespa Primavera 150: 56331 -> 55323
+vespa Primavera Sport 150: 56383 -> 55480
+vespa Sprint S 150: 58791 -> 58261
 diag honda: titulo=Access Denied texto=203
 diag honda: links=0 modelos=0
 honda: coleta vazia, mantido o anterior
