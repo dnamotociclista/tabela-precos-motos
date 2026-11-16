@@ -46,5 +46,11 @@
   "categoria": "sportscafe",
   "preco": 33720,
   "url": "http://zontesmotos.com.br/gk-350"
+ },
+ {
+  "modelo": "T501",
+  "categoria": "crossover",
+  "preco": 39970,
+  "url": "http://zontesmotos.com.br/t501"
  }
 ]
