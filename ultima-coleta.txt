@@ -1,18 +1,11 @@
-2026-11-16T20:05:57.954Z
+2026-11-23T21:58:49.399Z
 scraper suzuki-grupo: haojue 6, suzuki 11, hisun 6, kymco 1, zontes 9
-hisun TACTIC 750 VERDE: 58300 -> 61380
-hisun TACTIC 750 CAMO: 58900 -> 61960
-hisun TACTIC 550 LARANJA: novo (56200)
-hisun TACTIC 550 CAMO: 54200 -> 56800
-hisun TACTIC 400i Preto: novo (49840)
-hisun Tactic 400i Camo: 40900 -> 50460
-hisun TACTIC 550: não apareceu, mantido (1/2)
-hisun TACTIC 400i: não apareceu, mantido (1/2)
-zontes T501: novo (39970)
+hisun TACTIC 550: não apareceu, mantido (2/2)
+hisun TACTIC 400i: não apareceu, mantido (2/2)
 scraper shineray: shineray 8
 scraper ducati: ducati 11
 scraper harley: harley-davidson 6
-scraper fipe-api: avelloz atualizados 0, bajaj atualizados 0, cfmoto atualizados 0, dafra atualizados 0, husqvarna atualizados 0, kawasaki atualizados 0, ktm atualizados 0, piaggio atualizados 0, royal-enfield atualizados 0, triumph atualizados 0, vespa atualizados 0, chamadas 210 ok 209 falhas 1
+scraper fipe-api: avelloz atualizados 0, bajaj atualizados 0, cfmoto atualizados 0, dafra atualizados 0, husqvarna atualizados 0, kawasaki atualizados 0, ktm atualizados 0, piaggio atualizados 0, royal-enfield atualizados 0, triumph atualizados 0, vespa atualizados 0, chamadas 210 ok 210 falhas 0
 diag honda: titulo=Access Denied texto=203
 diag honda: links=0 modelos=0
 honda: coleta vazia, mantido o anterior
